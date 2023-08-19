@@ -1,29 +1,10 @@
 package org.example;
-
-import java.util.ArrayList;
-import java.util.LinkedList;
-
 public class Main {
     public static void main(String[] args) {
-//        ArraysExample ob = new ArraysExample();
+        Person ob = new Person("Salah Uddin Sahebbb", 67);
 
-
-//        Car ob = new Car("Toyata",2020,4);
-//        ob.displayInfo();
-
-//        Product laptop = new Product("laptop",1000);
-//        Product smartphone = new Product("SmartPhone",500);
-//
-//        Order order1 = new Order(1,"Laptop");
-//        Order order2 = new Order(2,"SmartPhone");
-//        System.out.println("order1: " + order1.toString());
-//        System.out.println("order2: " + order2.toString());
-
-
-        ArrayList<Integer> ob = new ArrayList<>();
-
-        LinkedList<Integer> ll = new LinkedList<>();
-
+        Car car = new Car("ford", "2021");
+        car.displayInfo();
 
     }
 }
