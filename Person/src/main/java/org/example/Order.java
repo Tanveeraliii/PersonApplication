@@ -1,6 +1,6 @@
 package org.example;
 
-public class Order extends Product {
+public class Order  {
     private int  orderId;
     private String products;
 
