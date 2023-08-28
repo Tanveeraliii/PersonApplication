@@ -5,6 +5,8 @@ public class MainInterface {
         DatabaseInterface db = new Hibernate();
         DatabaseInterface db2 = new DataJPA();
 
+
+
         db.connect("hibernate_URL", "Hibernate_user", "Hibernate_password");
         db.saveData("'Some Data for Hibernate'");
         db.retrieveData();
